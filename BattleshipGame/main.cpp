@@ -7,10 +7,10 @@
 int battle_state[MAX_ROWS][MAX_COLS];
 
 // state
-//			0: no ship, no hit
-//			1:	  ship, no hit
-//			2: no ship,    hit
-//			3:    ship,    hit
+//			0: no ship, no hit - ' ' 
+//			1:	  ship, no hit - 'o'
+//			2: no ship,    hit - 'x'
+//			3:    ship,    hit - '#'
 
 void print_numbers(int n)
 {
